@@ -11,10 +11,55 @@
 </head>
 <body>
     <div class="container square-box d-flex justify-content-center align-items-center">
-        <button type="button" class="btn btn-info mx-5">Dāvana 1</button>
-        <button type="button" class="btn btn-light mx-5">Dāvana 2</button>
-        <button type="button" class="btn btn-dark mx-5">Dāvana 3</button>
+        <button type="button" class="btn btn-info mx-5" data-bs-toggle="modal" data-bs-target="#giftOne">Dāvana 1</button>
+        <div class="modal fade" id="giftOne" tabindex="-1" aria-labelledby="giftOneLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="giftOneLabel">CONGRATS!!!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  You just one a yummy dinner cooked by a Master Chef Junior Liga
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <button type="button" class="btn btn-light mx-5" data-bs-toggle="modal" data-bs-target="#giftTwo">Dāvana 2</button>
+        <div class="modal fade" id="giftTwo" tabindex="-1" aria-labelledby="giftTwoLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="giftTwoLabel">CONGRATS!!!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  You just one a free wdog walk by the best walker in the world. Some of her references include running a Marathon and walking from Koknese to Aizkraukle very hungover!
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <button type="button" class="btn btn-dark mx-5" data-bs-toggle="modal" data-bs-target="#giftThree">Dāvana 3</button>
+        <div class="modal fade" id="giftThree" tabindex="-1" aria-labelledby="giftThreeLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="giftThreeLabel">CONGRATS!!!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  You just one two tickets to Ballet NESTASTI MAN PASAKAS.HAMLETS. for two people. Only condition is that Liga has to be one of those people!
+                  Click <a href="./assets/Hamlets.pdf" download="newfilename">here</a> to download your tickets.
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
+
+
+
     <button type="button" class="btn btn-info"><a href="./index.html">Atpakaļ pagaidām!</a></button>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
