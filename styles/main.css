@@ -1,3 +1,40 @@
-.square-box {
+.square-box, .gift-box {
     height: 100vh;
+}
+
+body {
+    background-image: url(../assets/bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.square-box {
+    background-image: url(../assets/main2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main-btn {
+    top: 30%;
+    background-color: #BD1739;
+    border: 1px solid #BD1739;
+    color: white;
+}
+
+.main-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-btn:hover {
+    background-color: #02222C;
+    border: 1px solid #02222C;
+}
+
+.main-btn:focus {
+    color:white;
+    background-color: #BD1739;
+    border-color: #BD1739;
+    box-shadow: 0 0 0  rgba(0,0,0,0);
 }
