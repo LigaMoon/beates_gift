@@ -20,16 +20,15 @@ body {
     background-color: #BD1739;
     border: 1px solid #BD1739;
     color: white;
-}
-
-.main-btn a {
-    color: white;
+    border-radius: 0.5rem;
     text-decoration: none;
 }
+
 
 .main-btn:hover {
     background-color: #02222C;
     border: 1px solid #02222C;
+    color: white;
 }
 
 .main-btn:focus {
@@ -38,3 +37,41 @@ body {
     border-color: #BD1739;
     box-shadow: 0 0 0  rgba(0,0,0,0);
 }
+
+.g1-btn, .g1-btn:focus,  .g1-modal {
+    background-color: #02222C;
+    border: 3px solid white;
+    color: white;
+}
+
+.g1-btn:hover {
+    background-color: white;
+    border: 3px solid #02222C;
+    color: #02222C;
+}
+
+.g3-btn, .g3-btn:focus, .g3-modal {
+    background-color: #BD1739;
+    border: 3px solid white;
+    color: white;
+}
+
+.g3-btn:hover {
+    background-color: white;
+    border: 3px solid #BD1739;
+    color: #BD1739;
+}
+
+.g2-btn, .g2-btn:focus, .g2-modal {
+    background-color: #6ABFA1;;
+    border: 3px solid #02222C;
+    color: #02222C;
+}
+
+.g2-btn:hover {
+    background-color: #02222C;
+    border: 3px solid #6ABFA1;
+    color: #6ABFA1;
+}
+
+
