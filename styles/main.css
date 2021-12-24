@@ -2,6 +2,10 @@
     height: 100vh;
 }
 
+button {
+  white-space: nowrap;
+}
+
 body {
     background-image: url(../assets/bg2.png);
     background-position: center;
