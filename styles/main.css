@@ -63,7 +63,7 @@ body {
 }
 
 .g2-btn, .g2-btn:focus, .g2-modal {
-    background-color: #6ABFA1;;
+    background-color: #6ABFA1;
     border: 3px solid #02222C;
     color: #02222C;
 }
@@ -74,4 +74,14 @@ body {
     color: #6ABFA1;
 }
 
+.terms {
+    font-size: 0.5rem;
+}
 
+.pdftxt {
+    color: #6ABFA1;
+}
+
+.pdftxt:hover {
+    color: #6ABFA1;
+}
